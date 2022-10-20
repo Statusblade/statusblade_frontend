@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
+import StatusBladeLogo from './images/logo.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <img src={StatusBladeLogo} className="App-logo" alt="logo" />
+        <h1 className="statusblade">Statusblade</h1>
+        <p className="tag-name">
+          A SUITE OF SOCIAL MEDIA TOOLS FOR BRANDS AND CREATORS
         </p>
         <a
           className="App-link"
@@ -16,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Coming Soon
         </a>
       </header>
     </div>
